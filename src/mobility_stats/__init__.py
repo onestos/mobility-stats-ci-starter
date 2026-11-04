@@ -8,11 +8,11 @@ from .rides import (
 from .summary import build_summary, format_summary
 
 __all__ = [
-    "load_rides",
     "average_duration",
-    "count_by_rider_type",
-    "busiest_start_station",
-    "filter_long_rides",
     "build_summary",
+    "busiest_start_station",
+    "count_by_rider_type",
+    "filter_long_rides",
     "format_summary",
+    "load_rides",
 ]
