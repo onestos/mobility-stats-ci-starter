@@ -1,4 +1,8 @@
-from mobility_stats.rides import average_duration, busiest_start_station, count_by_rider_type
+from mobility_stats.rides import (
+    average_duration,
+    busiest_start_station,
+    count_by_rider_type,
+)
 
 
 def build_summary(rides):
